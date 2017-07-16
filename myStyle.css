@@ -14,19 +14,23 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    text-align: center;
     background-color: #333;
 }
-li {
-    float: left;
+
+a {
+   display: inline-block;
+   width: 100px;
+   color: white;
+   text-align: center; 
+   font-family: courier;
+   text-decoration: none;
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: courier;
+li {
+    width: 100px;
+    margin: auto;
+    display: inline;
 }
 
 li a:hover {
