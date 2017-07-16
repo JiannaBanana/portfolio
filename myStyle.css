@@ -43,7 +43,7 @@ p  {
     text-align:center;
     font-size: 100%;
 }
-.Likes img{
+.Likes {
    display:block;
    margin: 0 auto;
 }
